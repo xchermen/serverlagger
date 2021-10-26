@@ -1,0 +1,37 @@
+while wait do
+
+local args = {
+    [1] = "Taxi",
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(args))
+
+wait(0.6)
+
+local args = {
+    [1] = "Taxi",
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(args))
+wait(0.6)
+
+end
+
+while wait do
+
+local args = {
+    [1] = "Taxi",
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(args))
+
+wait(0.6)
+
+local args = {
+    [1] = "Taxi",
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(args))
+wait(0.6)
+
+end
